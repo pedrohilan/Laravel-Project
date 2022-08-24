@@ -1,0 +1,228 @@
+/* General */
+*{
+    font-family: 'Roboto'; 
+}
+
+body{
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.btn-success{
+    border: 2px solid darkgreen !important;
+}
+
+.btn-success:hover{
+    background-color: darkgreen;
+    border: 2px solid darkgreen;
+}
+
+.alert{
+    /*background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    text-align: center;
+    padding: 10px;*/
+    margin: 0 !important;
+}
+
+/* navbar */
+#navbar img{
+    width: 70px;
+}
+
+#navbar-items{
+    text-align: left !important;
+}
+
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+
+#navbar a{
+    color: #757575;
+    font-size: 18px;
+    /*font-weight: bold;*/
+}
+
+#navbar a:hover{
+    color: darkgreen;
+}
+
+/*Search container*/
+#search-container{
+    background-image: url("../img/banner2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+}
+
+#search-container h1{
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Projects list*/
+#projects-container{
+    padding: 50px;
+}
+
+#cards-container{
+    display: flex;
+}
+
+#projects-container .card{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+}
+
+#projects-container img{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.card .card-title{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card .card-link{
+    color: darkblue;
+    font-size: 14px;
+}
+
+/* Project create page */
+#project-create-container{
+    padding: 30px;
+}
+
+#project-create-container label{
+    font-weight: bold;
+}
+
+#project-create-container input,
+#project-create-container textarea,
+#project-create-container select{
+    font-size: 12px;
+}
+
+.form-group{
+    padding-bottom: 12px;
+}
+
+/* Project page */
+
+#image-container, #info-container{
+    margin-top: 30px;
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p{
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3, #description-container{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon{
+    font-size: 20px;
+    color: darkgreen;
+    margin-right: 5px;
+}
+
+#languages-list{
+    list-style: none;
+    padding: 0;
+}
+
+#languages-list li{
+    display: flex;
+}
+
+#description-container{
+    margin-top: 30px;
+}
+
+/* Dashboard */
+
+.dashboard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-projects-container th{
+    width: 20%;
+}
+
+.dashboard-projects-container form{
+    display: inline-block;
+}
+
+/* Edit page */
+
+.img-preview{
+    width: 100px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+footer p{
+    margin-bottom: 0;
+}
